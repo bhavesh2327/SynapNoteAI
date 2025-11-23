@@ -124,15 +124,3 @@ Create `.env` from `.env.example` for both backend and frontend (if present). Im
 
 ---
 
-**Development tips & next steps**
-- Use `express-rate-limit` on auth endpoints to limit brute-force attempts.
-- Add unit and integration tests (`jest` + `supertest`) for controllers and routes.
-- Consider adding a job queue (Redis + BullMQ) to run expensive AI calls asynchronously.
-- Store secrets in environment variables or a secrets manager — never commit them.
-
----
-
-If you want, I can:
-- Insert small example cURL commands for each endpoint.
-- Generate `.env.example` files for backend and frontend.
-- Add a short `CONTRIBUTING.md` or API Postman collection.
